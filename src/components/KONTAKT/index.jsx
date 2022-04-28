@@ -25,8 +25,7 @@ const Kontakt = () => {
                 <h2> OTEVÍRACÍ DOBA</h2>
                 <p> Pondělí, Středa, Pátek  – 9.00 – 12.00, 12.30 – 17.00 </p>
                 <p> Úterý, Čtvrtek – 12.30 – 19.00 </p>
-                <p> Sobota, Neděle – zavřeno  </p>
-               
+                <p> Sobota, Neděle – zavřeno  </p>  
              </div> 
              <div className="section2">
                 <a href="mailto:martin@cyklowerkstatt.cz"> <img className='icon'src={mail}/> </a>
