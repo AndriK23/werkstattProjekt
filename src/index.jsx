@@ -1,32 +1,41 @@
 import React from 'react';
 import { render } from 'react-dom';
+import {useState} from 'react';
 import bike from '../src/assets/bike1.jpg';
 import logoW from '../src/assets/logo.png';
 import './style.css';
 
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'; 
 
+import menu from './assets/menu.png';
+
 import Home from './components/Home';
 import Servis from './components/Servis';
 import Kontakt from './components/Kontakt';
+import Kola from './components/Kola';
 
 const App = () => {
+
+  const [open, setOpen] = useState(false);
+
+
   return( 
     <>
-    <BrowserRouter> 
-        
+    <BrowserRouter>    
           <header>
-              <nav>
-                <Link to="/"> <li> HOME </li></Link>
-                <Link to="/kola"> <li>  KOLA </li> </Link>
-                <Link to="/servis"> <li> CYKLOSERVIS </li> </Link>
-                <Link to="/kontakt"> <li> KONTAKT </li> </Link>
-              </nav>
+                <nav> 
+                  <Link to="/"> <li> O WERKSTATTU </li></Link>
+                  <Link to="/kola"> <li>  KOLA </li> </Link>
+                  <Link to="/servis"> <li> CYKLOSERVIS </li> </Link>
+                  <Link to="/kontakt"> <li> KONTAKT </li> </Link>
+                </nav>
+              
           </header>
           
           <main>
               <Routes>
               <Route path="/" element={<Home/>} />
+              <Route path="/kola" element={<Kola/>} />
               <Route path="/servis" element={<Servis/>} />
               <Route path="/kontakt" element={<Kontakt/>} />
               </Routes>
@@ -60,4 +69,15 @@ render(<App />, document.querySelector('#app'));
         </footer>
       </div> 
 
+*/
+
+
+/*
+<button onClick = { () => setOpen(!open)} className={
+  open ? 'hamburger hamburger--otevrene' : 'hamburger'
+}>
+  <span> </span>
+  <span> </span>
+  <span> </span>
+</button>
 */

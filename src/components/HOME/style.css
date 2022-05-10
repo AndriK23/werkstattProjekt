@@ -81,10 +81,41 @@ ul{
   width: 20px;
   border-radius: 50%;
   cursor: pointer;
-  margin: 15px 7px 0px;
+  margin: 0px 7px 0px;
   background-color: #c4c4c4;
 }
 
 .slideshowDot.active {
   background-color: grey;
 }
+
+.onas {
+  text-align: left;
+  font-size: smaller;
+  border-left: 1px solid black;
+  line-height: 0.5cm;
+  position: absolute;
+  bottom: 70px;
+  margin-left: 45px;
+  margin-right: 45px;
+  padding: 5px;
+}
+
+
+
+.linkText{
+  font-size: small;
+}
+
+/*
+hr{
+  width: 20%;
+  border: 0.05px solid black;
+  line-height: 0.5cm;
+}
+*/
+
+.linkText{
+  font-style: oblique;
+}
+

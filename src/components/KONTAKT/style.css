@@ -8,6 +8,11 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+h1,h2,h3,p,li {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -48,10 +53,12 @@ li{
   margin-right: 10px;
 }
 
-ul{
+.openingHours{
   display: flex;
-  flex-direction: row;  
+  flex-direction: column;
+  align-items: center;  
   list-style: none;
+  line-height: 0.7cm;
 }
 
 .section1{
@@ -69,10 +76,22 @@ ul{
 
 a{
     margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
 }
 
 .last{
     display: flex;
-    justify-content: center;
-    margin: 10px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.vizitka{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+
 }

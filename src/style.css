@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav{
@@ -21,6 +22,64 @@ li{
 
 a {
   text-decoration: none;
+  font-size: large;
+  font-family: 'Roboto';
+  margin: 0 0.8rem;
+  margin-top: 5px;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  transform: scale(1.2);
+  transition-duration: 1s;
 }
 
 
+
+/*
+@media (min-width: 550px) {
+
+.hamburger {
+	display: block;
+	width: 30px;
+	height: 30px;
+  position: relative;
+  border: none;
+	background-color: transparent;
+}
+
+.hamburger span {
+	position: absolute;
+	top: calc(50% - 2px);
+	left: 0;
+	right: 0;
+	height: 4px;
+	background-color: currentColor;
+	transition-property: opacity, transform;
+	transition-duration: 0.2s;
+}
+
+.hamburger span:nth-child(1) {
+	transform: translateY(-250%);
+}
+
+.hamburger span:nth-child(3) {
+	transform: translateY(250%);
+}
+
+.hamburger--otevrene span:nth-child(2) {
+	opacity: 0;
+}
+
+.hamburger--otevrene span:nth-child(1) {
+	transform: rotate(45deg);
+}
+
+.hamburger--otevrene span:nth-child(3) {
+	transform: rotate(-45deg);
+}
+
+}
+*/

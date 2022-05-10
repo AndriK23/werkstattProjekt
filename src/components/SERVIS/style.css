@@ -21,6 +21,8 @@ h3{
     font-weight: 500;
 }
 
+
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -61,7 +63,6 @@ h3{
 }
 
 li{
-  margin-right: 10px;
   list-style: none;
   text-transform: uppercase;
 }
@@ -83,7 +84,6 @@ ul{
     align-items: center;
     gap: 10px;
     width: auto;
-    max-height: 1200px;
     justify-content: center;
 }
 
@@ -93,7 +93,25 @@ ul{
     text-align: center;
     width: auto;
     height: auto;
-    height: 400px;
-    width: 850px;
+    width: 750px;
     flex-wrap: nowrap;
+}
+
+.polozka{
+  margin-bottom: 10px;
+  font-size: smaller;
+}
+
+.onas {
+  text-align: left;
+  font-size: smaller;
+  border-left: 1px solid black;
+  line-height: 0.5cm;
+  position: absolute;
+  bottom: 70px;
+  left:50%;
+  margin-left: 45px;
+  margin-right: 45px;
+  padding: 5px;
+  text-align: left;
 }

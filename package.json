@@ -1,6 +1,7 @@
 {
   "name": "react-starter-kit",
   "version": "1.0.0",
+  "homepage": "https://cyklowerkstatt.cz",
   "description": "Starter kit for React JavaScript project",
   "main": "index.js",
   "scripts": {
